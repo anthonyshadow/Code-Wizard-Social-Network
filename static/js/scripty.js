@@ -13,7 +13,7 @@ $(document).ready(function(){
             data: form,
             success: function(response){
                 console.log('registeration successful: ', response);
-                window.location.href = "/login";
+                // window.location.href = "/login";
             }
         });
     });
